@@ -1,8 +1,12 @@
 {
   "name": "hexlet1",
   "version": "0.0.2",
-  "description": "BrainGames",
-  "main": "index.js",
+  "description": "There are set of mini games launching via console",
+  "keywords": [
+    "games",
+    "consolegames",
+    "brain"
+  ],
   "bin": {
     "brain-games": "dist/bin/brain-games.js"
   },
