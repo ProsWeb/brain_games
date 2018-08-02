@@ -1,8 +1,8 @@
 import { cons } from 'hexlet-pairs';
-import getRandomNumber from '../random-num';
+import getRandomNumber from '../utils';
 import beginGame from '..';
 
-const gameRules = 'What is the result of the expression? ';
+const description = 'What is the result of the expression? ';
 const getQuestionAndAnswer = (num1, num2, operand) => {
   switch (operand) {
     case 1:
@@ -19,4 +19,4 @@ const getData = () => {
   const operand = getRandomNumber(1, 4);
   return getQuestionAndAnswer(number1, number2, operand);
 };
-export default () => beginGame(gameRules, getData);
+export default () => beginGame(description, getData);
