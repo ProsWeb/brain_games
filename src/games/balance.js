@@ -31,7 +31,7 @@ const balancedNumber = (value) => {
 const getData = () => {
   const question = getRandomNumber(100, 10000);
   const answer = balancedNumber(question);
-  return cons(question, String(answer));
+  return cons(question, answer);
 };
 
 export default () => beginGame(description, getData);
