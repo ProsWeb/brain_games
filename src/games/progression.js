@@ -6,12 +6,12 @@ const description = 'What number is missing in this progression?';
 
 const createProgression = (first, step, hiddenPosition) => {
   let result = '';
-  const iter = (counter, acc) => {
-    if (counter === 10) {
+  const iter = (progressionCurrentLength, acc) => {
+    if (progressionCurrentLength === 10) {
       return result;
     }
-    result += (counter === hiddenPosition) ? '.. ' : `${acc} `;
-    return iter(counter + 1, acc + step);
+    result += (progressionCurrentLength === hiddenPosition) ? '.. ' : `${acc} `;
+    return iter(progressionCurrentLength + 1, acc + step);
   };
   return iter(0, first);
 };
