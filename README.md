@@ -31,22 +31,22 @@ $ brain-even
 ### Game 2 - Calculator
 $ brain-calc
 
-https://github.com/ProsWeb/project-lvl1-s320/blob/master/gifs/calc.gif
+![Alt Text](https://github.com/ProsWeb/project-lvl1-s320/blob/master/gifs/calc.gif)
 
 ### Game 3 - Greatest Common Divisor?
 $ brain-gcd
 
-https://github.com/ProsWeb/project-lvl1-s320/blob/master/gifs/gcd.gif
+![Alt Text](https://github.com/ProsWeb/project-lvl1-s320/blob/master/gifs/gcd.gif)
 
 ### Game 4 - Balance
 $ brain-balance
 
-https://github.com/ProsWeb/project-lvl1-s320/blob/master/gifs/balance.gif
+![Alt Text](https://github.com/ProsWeb/project-lvl1-s320/blob/master/gifs/balance.gif)
 
 ### Game 5 - Progression
 $ brain-progression
 
-https://github.com/ProsWeb/project-lvl1-s320/blob/master/gifs/progression.gif
+![Alt Text](https://github.com/ProsWeb/project-lvl1-s320/blob/master/gifs/progression.gif)
 
 ### Game 6 - is Prime
 $ brain-prime
