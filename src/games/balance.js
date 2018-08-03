@@ -6,10 +6,10 @@ const description = 'Balance the given number.';
 
 const sumofDigits = (value) => {
   let sum = 0;
-  const numToString = String(value);
+  const numAsString = String(value);
 
-  for (let i = 0; i < numToString.length; i += 1) {
-    sum += +numToString[i];
+  for (let i = 0; i < numAsString.length; i += 1) {
+    sum += +numAsString[i];
   }
 
   return sum;
@@ -17,10 +17,10 @@ const sumofDigits = (value) => {
 
 const balancedNumber = (value) => {
   let sum = sumofDigits(value);
-  const numToString = String(value);
+  const numAsString = String(value);
   let balanced = '';
 
-  for (let i = numToString.length; i > 0; i -= 1) {
+  for (let i = numAsString.length; i > 0; i -= 1) {
     balanced += Math.floor(sum / i);
     sum -= Math.floor(sum / i);
   }

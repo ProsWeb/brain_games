@@ -4,13 +4,7 @@ import beginGame from '..';
 
 const description = 'Find the greatest common divisor of given numbers.';
 
-const gcd = (num1, num2) => {
-  if (num2 === 0) {
-    return num1;
-  }
-
-  return gcd(num2, num1 % num2);
-};
+const gcd = (num1, num2) => (num2 === 0 ? num1 : gcd(num2, num1 % num2));
 
 const getData = () => {
   const number1 = getRandomNumber(2, 100);
