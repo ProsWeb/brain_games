@@ -6,6 +6,7 @@
 ## Description
 Brain Games are set of mini games launching via console.
 
+<<<<<<< HEAD
 The set includes 6 games:
 
 1. is Even?
@@ -52,3 +53,7 @@ https://github.com/ProsWeb/project-lvl1-s320/blob/master/gifs/progression.gif
 $ brain-prime
 
 GIF
+=======
+[![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/ProsWeb/project-lvl1-s320/maintainability)
+[![Build Status](https://travis-ci.org/ProsWeb/project-lvl1-s320.svg?branch=master)](https://travis-ci.org/ProsWeb/project-lvl1-s320)
+>>>>>>> a71af9d1a50683d78043adce19210333e18487a5
