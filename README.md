@@ -26,7 +26,7 @@ sudo npm i -g brain_games_hexlet1
 ### Game 1 - is Even?
 $ brain-even
 
-https://github.com/ProsWeb/project-lvl1-s320/blob/master/gifs/even.gif
+![Alt Text](https://github.com/ProsWeb/project-lvl1-s320/blob/master/gifs/even.gif)
 
 ### Game 2 - Calculator
 $ brain-calc
