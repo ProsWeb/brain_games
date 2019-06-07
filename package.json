@@ -1,6 +1,6 @@
 {
   "name": "brain_games_hexlet1",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "There are set of mini games launching via console",
   "keywords": [
     "games",
@@ -45,11 +45,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ProsWeb/project-lvl1-s320.git"
+    "url": "git+https://github.com/ProsWeb/brain_games.git"
   },
   "bugs": {
-    "url": "https://github.com/ProsWeb/project-lvl1-s320/issues"
+    "url": "https://github.com/ProsWeb/brain_games/issues"
   },
-  "homepage": "https://github.com/ProsWeb/project-lvl1-s320#readme",
+  "homepage": "https://github.com/ProsWeb/brain_games#readme",
   "main": "index.js"
 }
