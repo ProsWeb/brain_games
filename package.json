@@ -22,6 +22,7 @@
   "author": "Konstantin Proskurnya",
   "license": "ISC",
   "dependencies": {
+    "braces": "^3.0.2",
     "hexlet-pairs": "^1.0.8",
     "lodash": "^4.17.11",
     "readline-sync": "^1.4.9"
@@ -33,8 +34,8 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-stage-0": "^6.24.1",
     "eslint": "4.19.1",
-    "eslint-config-airbnb-base": "^13.0.0",
-    "eslint-plugin-import": "^2.13.0"
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.3"
   },
   "scripts": {
     "babel-node": "babel-node",
