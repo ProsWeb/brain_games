@@ -21,7 +21,7 @@ const getData = () => {
   const progressionStep = getRandomNumber(1, 15);
   const hiddenPosition = getRandomNumber(1, 11);
   const question = createProgression(firstPosition, progressionStep, hiddenPosition);
-  const answer = progressionStep * (hiddenPosition - 1) + firstPosition;
+  const answer = progressionStep * hiddenPosition + firstPosition;
   return cons(question, String(answer));
 };
 
