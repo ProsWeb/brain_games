@@ -24,7 +24,7 @@
   "dependencies": {
     "braces": "^3.0.2",
     "hexlet-pairs": "^1.0.8",
-    "lodash": "^4.17.11",
+    "lodash": ">=4.17.13",
     "readline-sync": "^1.4.9"
   },
   "devDependencies": {
