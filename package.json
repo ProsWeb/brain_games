@@ -22,7 +22,7 @@
   "author": "Konstantin Proskurnya",
   "license": "ISC",
   "dependencies": {
-    "acorn": "^7.1.1",
+    "acorn": "^5.7.4",
     "braces": "^3.0.2",
     "hexlet-pairs": "^1.0.8",
     "lodash": ">=4.17.13",
