@@ -22,9 +22,11 @@
   "author": "Konstantin Proskurnya",
   "license": "ISC",
   "dependencies": {
+    "acorn": "^7.1.1",
     "braces": "^3.0.2",
     "hexlet-pairs": "^1.0.8",
     "lodash": ">=4.17.13",
+    "minimist": "^1.2.5",
     "readline-sync": "^1.4.9"
   },
   "devDependencies": {
